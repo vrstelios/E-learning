@@ -8,12 +8,12 @@ To E-learning είναι μια custom ιστοσελίδα που αναπτύ�
 διαβατάρικα δικαιώματα.
 
 # Στοιχεία Λογαριασμού Φοιτητή
-Username:aa
-Password:123
+Username:aa<br>
+Password:123<br>
 
 #Στοιχεία Λογαριασμού καθηγητή
-Username:pp
-Password:2310
+Username:pp<br>
+Password:2310<br>
 
 # Βάση Δεδομένων
 Η βάση δεδομένων βρίσκεται στο αρχείο student3272partΒ.rar, όπου την προσθέτουμε στο apache και την τρέχουμε με το xampp (Αν υπάρχει κάποιο πρόβλημα
