@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Brush Script MT",serif;
+    color: black;
+    background-color: #f7fafb;
+
+}
+
+/*Για να δώσω σχήμα στην επικεφαλίδα*/
+header {
+    border-radius: 30px;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    color: steelblue;
+    background-color: #f7fafb;
+}
+.header-hr{
+    border-top: 1px solid black;
+    padding: 0;
+    width: 99%;
+}
+/*Για να δώσω σχήμα στην menu*/
+nav {
+    float: left;
+    width: 20%;
+    height: 200vh;
+    background-color: #c0c0c0;
+    padding: 0;
+    margin: 0;
+    border-radius: 30px;
+}
+nav a{
+    font-size: 24px;
+    color: #f7fafb;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    padding: 18px 8px;
+}
+
+nav a:hover{
+    background-color: #c0c0c0;
+    color: black;
+    border-radius: 30px;
+}
+/*Για να δώσω σχήμα στην περιεχόμενο*/
+article {
+    float: left;
+    width:80%;
+    background-color: #f7fafb;
+    height: 200vh;
+    padding: 24px;
+    font-family: serif;
+    font-size: 24px;
+}
+.insane_txt{
+    display: block;
+    margin-left: 110px;
+    margin-right: auto;
+}
+input[type=text], input[type=password] ,input[type=date]{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+#add{
+    margin-left: 400px;
+    background-color: #c0c0c0;
+    font-size: 20px;
+    color: #f7fafb;
+    z-index: 99;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #f7fafb;
+}
+#btn{
+    background-color: #c0c0c0;
+    float: right;
+    font-size: 20px;
+    color: #f7fafb;
+    border-radius: 4px;
+    outline: none;
+    text-decoration: none;
+    border: 1px solid #f7fafb;
+}
+#add:hover,#btn:hover{
+    color: #f7fafb;
+    background-color: steelblue;
+    border: 1px solid #f7fafb;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Για να δώσω σχήμα στo button_top*/
+#top_Btn{
+    background-color: green;
+    font-size: 28px;
+    color: #f7fafb;
+    outline: none;
+    z-index: 99;
+    border: none;
+    margin-left: 90%;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: auto;
+}
+.add_item{
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    width: 100%;
+    padding: 24px;
+    font-family: serif;
+    font-size: 24px;
+    background-color: #f7fafb;
+}
+/*Για να δώσω σχήμα στησ μικρες οθονες*/
+@media (max-width: 1000px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+

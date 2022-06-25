@@ -1,0 +1,51 @@
+/*Για να δώσω σχήμα στo button_top*/
+#spend{
+    margin-left: 553px;
+    background-color: #c0c0c0;
+    font-size: 20px;
+    color: #f7fafb;
+    z-index: 99;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #f7fafb;
+}
+#spend:hover {
+    color: #f7fafb;
+    background-color: steelblue;
+    border: 1px solid #f7fafb;
+}
+#email{
+    width: 230px;
+}
+#fthema{
+    margin-left: 68px;
+    width: 230px;
+}
+#ftext{
+    margin-left: 42px;
+    height: 200px;
+    width: 400px;
+}
+/*Για να δώσω σχήμα στησ μικρες οθονες*/
+@media screen and (max-width: 750px) {
+    .insane_txt{
+        display: block;
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    #email{
+        width: 150px;
+    }
+    #fthema{
+        width: 150px;
+        left: 213px;
+    }
+    #ftext{
+        width: 150px;
+        left: 213px;
+    }
+    #spend{
+        margin-left: 300px;
+    }
+
+}

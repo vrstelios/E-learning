@@ -1,0 +1,7 @@
+/*Για να τοποθετήσω την εικόνα στο κέντρο*/
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
