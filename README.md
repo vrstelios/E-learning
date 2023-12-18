@@ -1,13 +1,10 @@
 # E-learning
-Η ιστοσελίδα αναπτύχθηκε από εμένα ως προπτυχιακών φοιτητών του τμήματος Πληροφορικής ΑΠΘ.
+The website was developed by me as an undergraduate student of the Department of Computer Science of the Aristotle University of Thessaloniki.
 
-# Περιγραφή ιστοσελίδας
-To E-learning είναι μια custom ιστοσελίδα που αναπτύξαμε για να ενημερώνει τους φοιτητές για της πανεπιστημιακές υποχρεώσεις τους.Για να γίνω ποιο σαφής
-μπορούν οι φοιτητές να ενημερωθούν για της εργασίες τους άλλα και για της εξελίξεις των μαθημάτων τους και επίσης οι καθηγητές μπορούν να ανεβάσουν 
-εργασίες και ανακοινώσεις για το κάθε μάθημα αυτό σημαίνει ότι οι λογαριασμοί χωρίζονται σε δυο κατηγορίες ( φοιτητές , καθηγητές ) και κάθε μια έχει 
-διαβατάρικα δικαιώματα.
+# Website description
+The E-learning is a custom website that we developed to inform students about their university obligations. Of courses, the  students can be informed about their assignments and the progress of their courses and also professors can upload assignments and announcements for each course this means that the accounts are divided into two categories ( students , professors ) and each has each one has different access rights.
 
-# Κορμός ιστοσελίδας
+# Website body
 ![Screenshot_1](https://user-images.githubusercontent.com/56134371/175782228-1ba8dd95-c060-42d8-8798-2f5ab0f8d6c9.png)
 ![Screenshot_2](https://user-images.githubusercontent.com/56134371/175782229-e5e3bd86-e3bc-4652-8515-d9081379510e.png)
 ![Screenshot_3](https://user-images.githubusercontent.com/56134371/175782232-857a5f8d-a25b-449b-8e02-fa682748b5fe.png)
@@ -26,14 +23,14 @@ To E-learning είναι μια custom ιστοσελίδα που αναπτύ�
 ![Screenshot_4](https://user-images.githubusercontent.com/56134371/175782342-7166dfda-8f32-4c7c-8433-939d950f6707.png)
 
 
-# Στοιχεία Λογαριασμού Φοιτητή
+# Student Account Details
 Username:aa<br>
 Password:123<br>
 
-# Στοιχεία Λογαριασμού καθηγητή
+# Teacher Account Details
 Username:pp<br>
 Password:2310<br>
 
-# Βάση Δεδομένων
-Η βάση δεδομένων βρίσκεται στο αρχείο student3272partΒ.sql, όπου την προσθέτουμε στο apache και την τρέχουμε με το xampp (Αν υπάρχει κάποιο πρόβλημα
-στο άνοιγμα της βάσης επικοινωνήστε μαζί μας)
+# Database
+The database is located in the file student3272partB.sql, where we add it to apache and run it with xampp (If there is a problem
+in opening the database contact us)
